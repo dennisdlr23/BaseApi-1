@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Control' " />
+
+  <ItemGroup>
+    <Compile Remove="Features\Mails\**" />
+    <Content Remove="Features\Mails\**" />
+    <EmbeddedResource Remove="Features\Mails\**" />
+    <None Remove="Features\Mails\**" />
+  </ItemGroup>
   <ItemGroup>
     <Content Remove="appsettings.Production.json" />
   </ItemGroup>
@@ -33,7 +40,6 @@
     <None Remove="MimeKit" />
     <None Remove="MailKit" />
     <None Remove="Features\Mail\" />
-    <None Remove="Features\Mails\Dto\" />
     <None Remove="Features\CheckListEntries\" />
     <None Remove="Features\CheckListEntries\Entities\" />
     <None Remove="Features\Entries\" />
@@ -50,8 +56,6 @@
     <Folder Include="Features\Users\Entities\" />
     <Folder Include="Features\Users\Dto\" />
     <Folder Include="Features\Users\Services\" />
-    <Folder Include="Features\Mails\" />
-    <Folder Include="Features\Mails\Dto\" />
   </ItemGroup>
 
 

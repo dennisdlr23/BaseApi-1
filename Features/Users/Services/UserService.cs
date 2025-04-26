@@ -7,9 +7,8 @@ using BaseApi.WebApi.Features.Common.Entities;
 using BaseApi.WebApi.Infraestructure;
 using Microsoft.Extensions.Configuration;
 using BaseApi.WebApi.Helpers;
-using Sap.Data.Hana;
-using BaseApi.WebApi.Features.ServiceLayer;
-using BaseApi.WebApi.Features.ServiceLayer.Dto;
+
+
 
 namespace BaseApi.WebApi.Features.Users
 {
@@ -17,17 +16,15 @@ namespace BaseApi.WebApi.Features.Users
     {
         private readonly BaseApiDbContext _baseApiDbContext;
         private readonly IConfiguration _configuration;
-        private readonly HanaDbContext _hanaDbContext;
-        private readonly AuthSapServices _authSapService;
-        private readonly OrderPurchaseServices _orderPurchaseServices;
+   
 
-        public UserService(BaseApiDbContext baseApiDbContext, IConfiguration configuration, HanaDbContext hanaDbContext, AuthSapServices authSapService, OrderPurchaseServices orderPurchaseServices)
+
+        public UserService(BaseApiDbContext baseApiDbContext, IConfiguration configuration)
         {
             _baseApiDbContext = baseApiDbContext;
             _configuration = configuration;
-            _hanaDbContext = hanaDbContext;
-            _authSapService = authSapService;
-            _orderPurchaseServices = orderPurchaseServices;
+          
+  
         }
 
         public List<UserDto> Get()
@@ -98,25 +95,5 @@ namespace BaseApi.WebApi.Features.Users
             var themes = _baseApiDbContext.Theme.ToList();
             return themes;
         }
-
-        public List<string> GetSellersSAP()
-        {
-            List<string> result = new List<string>();
-            _hanaDbContext.Conn.Open();
-            string query = $@"SELECT ""SlpName"" FROM ""TEST_CHAMER"".""OSLP"" ";
-            HanaCommand selectCmd = new HanaCommand(query, _hanaDbContext.Conn);
-            HanaDataReader dr = selectCmd.ExecuteReader();
-            while (dr.Read())
-            {
-                string slpName = dr.GetString(0);
-                result.Add(slpName);
-            }
-            dr.Close();
-            _hanaDbContext.Conn.Close();
-            return result;
-        }
-
- 
-
     }
 }
