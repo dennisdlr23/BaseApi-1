@@ -7,7 +7,7 @@ namespace GestionDocumental.WebApi.Features.Users
 {
     [ApiController]
     [Route("[controller]")]
-    //[Authorize]
+    // 
     public class RoleController : ControllerBase
     {
         private RoleService _roleService;

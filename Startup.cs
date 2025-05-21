@@ -53,6 +53,7 @@ namespace GestionDocumental.WebApi
             services.AddTransient<RoleService, RoleService>();
             services.AddTransient<PermissionService, PermissionService>();
             services.AddScoped<IDocumentsRepository, DocumentsRepository>();
+            services.AddScoped<DashboardRepository, DashboardRepository>();
 
 
             // Configuración de autenticación mediante token

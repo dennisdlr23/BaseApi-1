@@ -1,50 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\repositories\\idocumentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:repositories\\idocumentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\infraestructure\\baseapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:infraestructure\\baseapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\repositories\\documentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:repositories\\documentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\repositories\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:repositories\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\controllers\\doocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:controllers\\doocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\models\\documentosportipocontenid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:models\\documentosportipocontenid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\dtos\\documentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:dtos\\documentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\repositories\\documentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:repositories\\documentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\features\\common\\commonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:features\\common\\commonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\features\\common\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:features\\common\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\controllers\\doocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:controllers\\doocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\infraestructure\\baseapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:infraestructure\\baseapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\features\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:features\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\dennis de la rosa\\onedrive - industrias chamer sa de cv\\documentos\\github\\saana\\back\\baseapi-1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,12 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -69,137 +65,151 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DoocumentsController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Controllers\\DoocumentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DoocumentsController.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Controllers\\DoocumentsController.cs",
-              "RelativeToolTip": "Controllers\\DoocumentsController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAYwFIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwDcAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T04:13:11.513Z"
+              "WhenOpened": "2025-05-21T20:58:18.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:53:28.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DocumentsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Repositories\\DocumentsRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\DocumentsRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Repositories\\DocumentsRepository.cs",
-              "RelativeToolTip": "Repositories\\DocumentsRepository.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAwE4AAAAAAAAAAAAAAA==",
+              "Title": "DashboardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Repositories\\DashboardRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DashboardRepository.cs",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Repositories\\DashboardRepository.cs",
+              "RelativeToolTip": "Repositories\\DashboardRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T03:53:41.754Z"
+              "WhenOpened": "2025-05-21T20:48:26.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IDocumentsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Repositories\\IDocumentsRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IDocumentsRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Repositories\\IDocumentsRepository.cs",
-              "RelativeToolTip": "Repositories\\IDocumentsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "BaseApiDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Infraestructure\\BaseApiDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\BaseApiDbContext.cs",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Infraestructure\\BaseApiDbContext.cs*",
+              "RelativeToolTip": "Infraestructure\\BaseApiDbContext.cs*",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB8AAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T03:56:25.234Z",
+              "WhenOpened": "2025-05-21T20:47:19.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentosPorTipoContenid.cs",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Models\\DocumentosPorTipoContenid.cs",
+              "RelativeDocumentMoniker": "Models\\DocumentosPorTipoContenid.cs",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Models\\DocumentosPorTipoContenid.cs*",
+              "RelativeToolTip": "Models\\DocumentosPorTipoContenid.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:46:21.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Repositories\\DocumentsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DocumentsRepository.cs",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Repositories\\DocumentsRepository.cs",
+              "RelativeToolTip": "Repositories\\DocumentsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T16:54:07.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "Controllers\\UploadController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAFwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T16:53:55.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CommonService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Common\\CommonService.cs",
-              "RelativeDocumentMoniker": "Features\\Common\\CommonService.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Common\\CommonService.cs",
-              "RelativeToolTip": "Features\\Common\\CommonService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Features\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "Features\\Auth\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Features\\Auth\\AuthController.cs",
+              "RelativeToolTip": "Features\\Auth\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T03:53:51.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T03:56:45.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-20T03:58:17.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CommonController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Common\\CommonController.cs",
-              "RelativeDocumentMoniker": "Features\\Common\\CommonController.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Common\\CommonController.cs",
-              "RelativeToolTip": "Features\\Common\\CommonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T03:53:51.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BaseApiDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Infraestructure\\BaseApiDbContext.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\BaseApiDbContext.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Infraestructure\\BaseApiDbContext.cs",
-              "RelativeToolTip": "Infraestructure\\BaseApiDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T03:52:08.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UploadController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Controllers\\UploadController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UploadController.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Controllers\\UploadController.cs",
-              "RelativeToolTip": "Controllers\\UploadController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwDYAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T03:52:00.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DocumentsDto.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\DTOs\\DocumentsDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DocumentsDto.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\DTOs\\DocumentsDto.cs",
-              "RelativeToolTip": "DTOs\\DocumentsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T03:50:15.084Z"
+              "WhenOpened": "2025-05-21T16:53:42.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Documents.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Models\\Documents.cs",
-              "RelativeDocumentMoniker": "Models\\Documents.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Models\\Documents.cs",
-              "RelativeToolTip": "Models\\Documents.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "DoocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Controllers\\DoocumentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoocumentsController.cs",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\Controllers\\DoocumentsController.cs",
+              "RelativeToolTip": "Controllers\\DoocumentsController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAqwFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T03:50:02.84Z"
+              "WhenOpened": "2025-05-21T15:50:52.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAADLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T16:07:10.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "appsettings.Production.json",
+              "ToolTip": "C:\\Users\\Dennis de la Rosa\\OneDrive - INDUSTRIAS CHAMER SA DE CV\\Documentos\\GitHub\\SAANA\\Back\\BaseApi-1\\appsettings.Production.json",
+              "RelativeToolTip": "appsettings.Production.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T16:07:07.318Z",
+              "EditorCaption": ""
             }
           ]
         }

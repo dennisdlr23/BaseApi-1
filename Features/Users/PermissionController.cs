@@ -16,7 +16,7 @@ namespace GestionDocumental.WebApi.Features.Users
             _permissionService = permissionService;
         }
 
-        [Authorize]
+       //  
         [HttpGet]
         public IActionResult Get()
         {
@@ -31,7 +31,7 @@ namespace GestionDocumental.WebApi.Features.Users
             }
         }
 
-        [Authorize]
+       //  
         [HttpGet("GetTypePermission")]
         public IActionResult GetTypePermission()
         {
@@ -46,7 +46,7 @@ namespace GestionDocumental.WebApi.Features.Users
             }
         }
 
-        [Authorize]
+         
         [HttpGet("ById/{PermissionId}")]
         public IActionResult GetById(int PermissionId)
         {
@@ -61,7 +61,7 @@ namespace GestionDocumental.WebApi.Features.Users
             }
         }
 
-        [Authorize]
+         
         [HttpPost]
         public IActionResult Add([FromBody] Permission permission)
         {
@@ -76,7 +76,7 @@ namespace GestionDocumental.WebApi.Features.Users
             }
         }
 
-        [Authorize]
+         
         [HttpPut]
         public IActionResult Edit([FromBody] Permission permission)
         {

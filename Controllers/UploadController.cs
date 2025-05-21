@@ -10,7 +10,7 @@ namespace BaseApi.WebApi.Controllers
     [ApiController]
     public class UploadController : ControllerBase
     {
-        private readonly string _localPath = @"C:\SAANA\Img\";
+        private readonly string _localPath = @"C:\SAANAA";
 
         [HttpPost("")]
         public async Task<IActionResult> uploadImg(IFormFile signature)
@@ -35,12 +35,13 @@ namespace BaseApi.WebApi.Controllers
                     await signature.CopyToAsync(stream);
                 }
 
-                var relativeUrl = $"http://<IIS_IP>:<PUERTO>/firmas/{fileName}"; // Reemplaza con tus valores reales
-                return Ok(relativeUrl);
+                // Devolver una ruta relativa en lugar de una URL absoluta
+                var relativePath = $"/Uploads/{fileName}";
+                return Ok(relativePath);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error al guardar la firma: {ex.Message}");
+                return StatusCode(500, new { error = $"Error al guardar la firma: {ex.Message}" });
             }
         }
 
@@ -57,13 +58,35 @@ namespace BaseApi.WebApi.Controllers
                     return NotFound("Archivo no encontrado.");
                 }
 
-                var fileBytes = System.IO.File.ReadAllBytes(filePath);
+                // Determinar el Content-Type según la extensión del archivo
+                string contentType;
+                var extension = Path.GetExtension(sanitizedFileName).ToLowerInvariant();
+                switch (extension)
+                {
+                    case ".pdf":
+                        contentType = "application/pdf";
+                        break;
+                    case ".png":
+                        contentType = "image/png";
+                        break;
+                    case ".jpeg":
+                    case ".jpg":
+                        contentType = "image/jpeg";
+                        break;
+                    case ".gif":
+                        contentType = "image/gif";
+                        break;
+                    default:
+                        contentType = "application/octet-stream"; // Tipo genérico si no se reconoce
+                        break;
+                }
 
-                return File(fileBytes, "image/png");
+                // Usar PhysicalFile para streaming eficiente
+                return PhysicalFile(filePath, contentType);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error al recuperar la imagen: {ex.Message}");
+                return StatusCode(500, new { error = $"Error al recuperar la imagen: {ex.Message}" });
             }
         }
     }

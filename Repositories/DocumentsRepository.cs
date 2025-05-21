@@ -14,7 +14,6 @@ namespace BaseApi.WebApi.Repositories
 
         public DocumentsRepository(IConfiguration configuration)
         {
-            // Puedes usar tu connection string desde appsettings.json
             _db = new SqlConnection(configuration.GetConnectionString("dbGestionD"));
         }
 
@@ -61,7 +60,6 @@ namespace BaseApi.WebApi.Repositories
         {
             return await _db.QueryAsync<Documents>("sp_ObtenerTodosDocumentos", commandType: CommandType.StoredProcedure);
         }
-
 
         public async Task<IEnumerable<Documents>> ObtenerPorCategoria(string categoria)
         {

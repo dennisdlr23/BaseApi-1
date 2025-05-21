@@ -15,7 +15,7 @@ namespace GestionDocumental.WebApi.Features.Users
             _userService = userService;
         }
 
-        [Authorize]
+         
         [HttpGet]
         public IActionResult Get()
         {
@@ -30,7 +30,7 @@ namespace GestionDocumental.WebApi.Features.Users
             }
         }
 
-        [Authorize]
+         
         [HttpPost]
         public IActionResult Add([FromBody] User user)
         {
@@ -45,7 +45,7 @@ namespace GestionDocumental.WebApi.Features.Users
             }
         }
 
-        [Authorize]
+         
         [HttpPut]
         public IActionResult Edit([FromBody] User user)
         {
@@ -60,7 +60,7 @@ namespace GestionDocumental.WebApi.Features.Users
             }
         }
 
-        [Authorize]
+         
         [HttpGet("Themes")]
         public IActionResult GetThemes()
         {
