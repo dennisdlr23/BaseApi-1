@@ -1,27 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using DBaseApi.Features.Auth.Dto;
-using BaseApi.WebApi.Features.Users.Entities;
-using BaseApi.WebApi.Features.Common.Entities;
-using BaseApi.WebApi.Infraestructure;
+using DGestionDocumental.Features.Auth.Dto;
+using GestionDocumental.WebApi.Features.Users.Entities;
+using GestionDocumental.WebApi.Features.Common.Entities;
+using GestionDocumental.WebApi.Infraestructure;
 using Microsoft.Extensions.Configuration;
-using BaseApi.WebApi.Helpers;
+using GestionDocumental.WebApi.Helpers;
 
 
 
-namespace BaseApi.WebApi.Features.Users
+namespace GestionDocumental.WebApi.Features.Users
 {
     public class UserService
     {
-        private readonly BaseApiDbContext _baseApiDbContext;
+        private readonly GestionDocumentalDbContext _GestionDocumentalDbContext;
         private readonly IConfiguration _configuration;
    
 
 
-        public UserService(BaseApiDbContext baseApiDbContext, IConfiguration configuration)
+        public UserService(GestionDocumentalDbContext GestionDocumentalDbContext, IConfiguration configuration)
         {
-            _baseApiDbContext = baseApiDbContext;
+            _GestionDocumentalDbContext = GestionDocumentalDbContext;
             _configuration = configuration;
           
   
@@ -29,9 +29,9 @@ namespace BaseApi.WebApi.Features.Users
 
         public List<UserDto> Get()
         {
-            var users = _baseApiDbContext.User.ToList();
-            var themes = _baseApiDbContext.Theme.ToList();
-            var roles = _baseApiDbContext.Role.ToList();
+            var users = _GestionDocumentalDbContext.User.ToList();
+            var themes = _GestionDocumentalDbContext.Theme.ToList();
+            var roles = _GestionDocumentalDbContext.Role.ToList();
 
             var result = (from u in users
                           join r in roles on u.RoleId equals r.RoleId into userRole
@@ -63,8 +63,8 @@ namespace BaseApi.WebApi.Features.Users
             user.Active = true;
             user.Password = Helper.EncryptPassword(user.Password.Trim(), _configuration);
             user.UserName = user.UserName.Trim().ToLower();
-            _baseApiDbContext.User.Add(user);
-            _baseApiDbContext.SaveChanges();
+            _GestionDocumentalDbContext.User.Add(user);
+            _GestionDocumentalDbContext.SaveChanges();
             return Get();
         }
 
@@ -77,22 +77,22 @@ namespace BaseApi.WebApi.Features.Users
                 if (user.Password.Length < 8) throw new Exception("Debe ingresar una contraseña que contenga al menos 8 caracteres");
                 user.Password = Helper.EncryptPassword(user.Password.Trim(), _configuration);
             }
-            var currentUser = _baseApiDbContext.User.Where(x => x.UserId == user.UserId).FirstOrDefault();
+            var currentUser = _GestionDocumentalDbContext.User.Where(x => x.UserId == user.UserId).FirstOrDefault();
             currentUser.Name = user.Name;
             currentUser.Email = user.Email;
             currentUser.RoleId = user.RoleId;
             currentUser.ThemeId = user.ThemeId;
             currentUser.Active = user.Active;
 
-            _baseApiDbContext.User.Update(currentUser);
+            _GestionDocumentalDbContext.User.Update(currentUser);
             currentUser.Password = user.Password;
-            _baseApiDbContext.SaveChanges();
+            _GestionDocumentalDbContext.SaveChanges();
             return Get();
         }
 
         public List<Theme> GetThemes()
         {
-            var themes = _baseApiDbContext.Theme.ToList();
+            var themes = _GestionDocumentalDbContext.Theme.ToList();
             return themes;
         }
     }

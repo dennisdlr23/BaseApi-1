@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace BaseApi.WebApi.Features.Users.Entities
+namespace GestionDocumental.WebApi.Features.Users.Entities
 {
     public class User
     {

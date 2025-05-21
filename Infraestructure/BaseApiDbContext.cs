@@ -1,13 +1,14 @@
-﻿using BaseApi.WebApi.Features.Users.Entities;
-using BaseApi.WebApi.Features.Common.Entities;
+﻿using GestionDocumental.WebApi.Features.Users.Entities;
+using GestionDocumental.WebApi.Features.Common.Entities;
 using Microsoft.EntityFrameworkCore;
-using BaseApi.WebApi.Features.Common.Dto;
+using GestionDocumental.WebApi.Features.Common.Dto;
+using BaseApi.WebApi.Models;
 
-namespace BaseApi.WebApi.Infraestructure
+namespace GestionDocumental.WebApi.Infraestructure
 {
-    public class BaseApiDbContext : DbContext
+    public class GestionDocumentalDbContext : DbContext
     {
-        public BaseApiDbContext(DbContextOptions<BaseApiDbContext> options) : base(options)
+        public GestionDocumentalDbContext(DbContextOptions<GestionDocumentalDbContext> options) : base(options)
         {
         }
         public DbSet<User> User { get; set; }
@@ -16,6 +17,7 @@ namespace BaseApi.WebApi.Infraestructure
         public DbSet<Role> Role { get; set; }
         public DbSet<Theme> Theme { get; set; }
         public DbSet<TypePermission> TypePermission { get; set; }
+        public DbSet<Documents> Documents { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -26,6 +28,7 @@ namespace BaseApi.WebApi.Infraestructure
             new Role.Map(modelBuilder.Entity<Role>());
             new Theme.Map(modelBuilder.Entity<Theme>());
             new TypePermission.Map(modelBuilder.Entity<TypePermission>());
+          //  new Documents.Map(modelBuilder.Entity<Documents>());
 
             base.OnModelCreating(modelBuilder);
         }

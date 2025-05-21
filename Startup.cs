@@ -1,9 +1,9 @@
-using BaseApi.WebApi.Features.Auth;
-using BaseApi.WebApi.Features.Common;
-using BaseApi.WebApi.Features.Users;
-using BaseApi.WebApi.Features.Users.Services;
-using BaseApi.WebApi.Helpers;
-using BaseApi.WebApi.Infraestructure;
+using GestionDocumental.WebApi.Features.Auth;
+using GestionDocumental.WebApi.Features.Common;
+using GestionDocumental.WebApi.Features.Users;
+using GestionDocumental.WebApi.Features.Users.Services;
+using GestionDocumental.WebApi.Helpers;
+using GestionDocumental.WebApi.Infraestructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -13,10 +13,11 @@ using Microsoft.Extensions.Hosting;
 using System;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using BaseApi.WebApi.Repositories;
 
 
 
-namespace BaseApi.WebApi
+namespace GestionDocumental.WebApi
 {
     public class Startup
     {
@@ -32,13 +33,13 @@ namespace BaseApi.WebApi
             // Configuración de Swagger para documentación de la API
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "BaseApi.WebApi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "GestionDocumental.WebApi", Version = "v1" });
             });
 
             // Configuración del contexto de base de datos
-            services.AddDbContext<BaseApiDbContext>(
+            services.AddDbContext<GestionDocumentalDbContext>(
                 dbContextOptions => dbContextOptions
-                    .UseSqlServer(Configuration.GetConnectionString("dbpurchase"))
+                    .UseSqlServer(Configuration.GetConnectionString("dbGestionD"))
                     .EnableSensitiveDataLogging()
                     .EnableDetailedErrors()
             );
@@ -51,7 +52,7 @@ namespace BaseApi.WebApi
             services.AddTransient<CommonService, CommonService>();
             services.AddTransient<RoleService, RoleService>();
             services.AddTransient<PermissionService, PermissionService>();
-      
+            services.AddScoped<IDocumentsRepository, DocumentsRepository>();
 
 
             // Configuración de autenticación mediante token
@@ -68,7 +69,7 @@ namespace BaseApi.WebApi
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BaseApiApi v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "GestionDocumentalApi v1"));
             }
 
             app.UseHttpsRedirection();
@@ -82,7 +83,7 @@ namespace BaseApi.WebApi
               .AllowAnyHeader());
 
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BaseApi.WebApi v1"));
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "GestionDocumental.WebApi v1"));
             app.UseAuthentication();
             app.UseAuthorization();
        

@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <UserSecretsId>e88d8350-1eb1-486e-93f3-52e317d6e36d</UserSecretsId>
-    <StartupObject>BaseApi.WebApi.Program</StartupObject>
-    <AssemblyName>BaseApi.WebApi</AssemblyName>
+    <StartupObject>GestionDocumental.WebApi.Program</StartupObject>
+    <AssemblyName>GestionDocumental.WebApi</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Control' " />
@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
@@ -27,6 +28,7 @@
     <PackageReference Include="MimeKit" Version="3.3.0" />
     <PackageReference Include="MailKit" Version="3.3.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Features\Common\Entities\" />
@@ -62,9 +64,6 @@
   <ItemGroup>
     <Reference Include="RestSharp">
       <HintPath>..\..\..\Downloads\RestSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Sap.Data.Hana.Core.v2.1">
-      <HintPath>Sap.Data.Hana.Core.v2.1.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

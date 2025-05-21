@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using BaseApi.WebApi.Features.Common.Dto;
-using BaseApi.WebApi.Features.Common.Entities;
-using BaseApi.WebApi.Helpers;
-using BaseApi.WebApi.Infraestructure;
+using GestionDocumental.WebApi.Features.Common.Dto;
+using GestionDocumental.WebApi.Features.Common.Entities;
+using GestionDocumental.WebApi.Helpers;
+using GestionDocumental.WebApi.Infraestructure;
 using Microsoft.AspNetCore.Http;
 
-namespace BaseApi.WebApi.Features.Common
+namespace GestionDocumental.WebApi.Features.Common
 {
     public class CommonService
     {
-        private readonly BaseApiDbContext _baseApiDbContext;
-        public CommonService(BaseApiDbContext logisticaBtdDbContext)
+        private readonly GestionDocumentalDbContext _GestionDocumentalDbContext;
+        public CommonService(GestionDocumentalDbContext logisticaBtdDbContext)
         {
-            _baseApiDbContext = logisticaBtdDbContext;
+            _GestionDocumentalDbContext = logisticaBtdDbContext;
         }
  
   

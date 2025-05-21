@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using BaseApi.WebApi.Features.Users.Entities;
-using BaseApi.WebApi.Features.Common.Dto;
+using GestionDocumental.WebApi.Features.Users.Entities;
+using GestionDocumental.WebApi.Features.Common.Dto;
 
-namespace DBaseApi.Features.Auth.Dto
+namespace DGestionDocumental.Features.Auth.Dto
 {
     public class UserDto : User
     {

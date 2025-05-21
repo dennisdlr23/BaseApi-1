@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BaseApi.WebApi.Features.Common.Dto
+namespace GestionDocumental.WebApi.Features.Common.Dto
 {
     public class MenuDto
     {

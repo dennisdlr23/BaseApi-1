@@ -1,8 +1,8 @@
-﻿using DBaseApi.Features.Auth.Dto;
+﻿using DGestionDocumental.Features.Auth.Dto;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
-namespace BaseApi.WebApi.Features.Auth
+namespace GestionDocumental.WebApi.Features.Auth
 {
     [ApiController]
     [Route("[controller]")]

@@ -1,9 +1,9 @@
 ﻿using System;
-using BaseApi.WebApi.Features.Users.Entities;
+using GestionDocumental.WebApi.Features.Users.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BaseApi.WebApi.Features.Users
+namespace GestionDocumental.WebApi.Features.Users
 {
     [ApiController]
     [Route("[controller]")]

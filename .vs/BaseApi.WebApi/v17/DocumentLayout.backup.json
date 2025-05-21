@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\repositories\\idocumentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:repositories\\idocumentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\repositories\\documentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:repositories\\documentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\controllers\\doocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:controllers\\doocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\baseapi.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:baseapi.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\dtos\\documentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:dtos\\documentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\features\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:features\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\features\\users\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:features\\users\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\features\\common\\commonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:features\\common\\commonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\features\\common\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|solutionrelative:features\\common\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D9AAC0E-28EB-45DD-8D75-FAFA5ED85713}|BaseApi.WebApi.csproj|c:\\users\\pc\\onedrive\\documents\\github\\sanaa\\baseapi\\infraestructure\\baseapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,68 +70,139 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Controllers\\DoocumentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoocumentsController.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Controllers\\DoocumentsController.cs",
+              "RelativeToolTip": "Controllers\\DoocumentsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T04:13:11.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseApi.WebApi",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\BaseApi.WebApi.csproj",
-              "RelativeDocumentMoniker": "BaseApi.WebApi.csproj",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\BaseApi.WebApi.csproj",
-              "RelativeToolTip": "BaseApi.WebApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T03:28:14.869Z",
+              "Title": "DocumentsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Repositories\\DocumentsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DocumentsRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Repositories\\DocumentsRepository.cs",
+              "RelativeToolTip": "Repositories\\DocumentsRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:53:41.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IDocumentsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Repositories\\IDocumentsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDocumentsRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Repositories\\IDocumentsRepository.cs",
+              "RelativeToolTip": "Repositories\\IDocumentsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:56:25.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommonService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Common\\CommonService.cs",
+              "RelativeDocumentMoniker": "Features\\Common\\CommonService.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Common\\CommonService.cs",
+              "RelativeToolTip": "Features\\Common\\CommonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:53:51.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Startup.cs",
               "RelativeToolTip": "Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T03:27:45.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:56:45.677Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T03:58:17.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommonController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Common\\CommonController.cs",
+              "RelativeDocumentMoniker": "Features\\Common\\CommonController.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Common\\CommonController.cs",
+              "RelativeToolTip": "Features\\Common\\CommonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:53:51.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BaseApiDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Infraestructure\\BaseApiDbContext.cs",
               "RelativeDocumentMoniker": "Infraestructure\\BaseApiDbContext.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Infraestructure\\BaseApiDbContext.cs",
               "RelativeToolTip": "Infraestructure\\BaseApiDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T03:27:38.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Users\\UserController.cs",
-              "RelativeDocumentMoniker": "Features\\Users\\UserController.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Users\\UserController.cs",
-              "RelativeToolTip": "Features\\Users\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T03:27:31.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T03:52:08.891Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Users\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Features\\Users\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Features\\Users\\Services\\UserService.cs",
-              "RelativeToolTip": "Features\\Users\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAJAAAAAAAAAA==",
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "Controllers\\UploadController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwDYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T03:26:54.483Z",
+              "WhenOpened": "2025-05-20T03:52:00.9Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocumentsDto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\DTOs\\DocumentsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DocumentsDto.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\DTOs\\DocumentsDto.cs",
+              "RelativeToolTip": "DTOs\\DocumentsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:50:15.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Documents.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Models\\Documents.cs",
+              "RelativeDocumentMoniker": "Models\\Documents.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\Github\\SANAA\\BaseApi\\Models\\Documents.cs",
+              "RelativeToolTip": "Models\\Documents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:50:02.84Z"
             }
           ]
         }

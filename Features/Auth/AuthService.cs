@@ -1,4 +1,4 @@
-﻿using DBaseApi.Features.Auth.Dto;
+﻿using DGestionDocumental.Features.Auth.Dto;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -8,21 +8,21 @@ using System.Security.Claims;
 using System.Text;
 using System.Security.Cryptography;
 using System.IO;
-using BaseApi.WebApi.Infraestructure;
-using BaseApi.WebApi.Features.Users.Entities;
-using BaseApi.WebApi.Features.Common.Dto;
+using GestionDocumental.WebApi.Infraestructure;
+using GestionDocumental.WebApi.Features.Users.Entities;
+using GestionDocumental.WebApi.Features.Common.Dto;
 using System.Collections.Generic;
-using BaseApi.WebApi.Helpers;
+using GestionDocumental.WebApi.Helpers;
 
-namespace BaseApi.WebApi.Features.Auth
+namespace GestionDocumental.WebApi.Features.Auth
 {
     public class AuthService
     {
-        private readonly BaseApiDbContext _baseApiDbContext;
+        private readonly GestionDocumentalDbContext _GestionDocumentalDbContext;
         private readonly IConfiguration _configuration;
-        public AuthService(BaseApiDbContext logisticaBtdDbContext, IConfiguration configuration)
+        public AuthService(GestionDocumentalDbContext logisticaBtdDbContext, IConfiguration configuration)
         {
-            _baseApiDbContext = logisticaBtdDbContext;
+            _GestionDocumentalDbContext = logisticaBtdDbContext;
             _configuration = configuration;
         }
 
@@ -32,7 +32,7 @@ namespace BaseApi.WebApi.Features.Auth
             User.Password = Helper.EncryptPassword(User.Password, _configuration);
 
             // Se busca al usuario en la base de datos por nombre de usuario y contraseña
-            var employee = _baseApiDbContext.User
+            var employee = _GestionDocumentalDbContext.User
                 .Where(x => x.UserName.ToUpper() == User.UserName && x.Password == User.Password)
                 .FirstOrDefault();
 
@@ -41,16 +41,16 @@ namespace BaseApi.WebApi.Features.Auth
             if (!employee.Active) throw new Exception("Usuario Inactivo.");
 
             // Se obtienen los permisos asignados al usuario
-            var userPermission = _baseApiDbContext.RolePermission.Where(x => x.RoleId == employee.RoleId).ToList();
+            var userPermission = _GestionDocumentalDbContext.RolePermission.Where(x => x.RoleId == employee.RoleId).ToList();
             var permissionIds = userPermission.Select(x => x.PermissionId).ToList();
 
             // Se realizan validaciones adicionales relacionadas con los permisos
             if (userPermission.Count() == 0) throw new Exception("Su usuario no tiene ningún permiso asignado");
-            var permissions = _baseApiDbContext.Permission.Where(x => permissionIds.Contains(x.PermissionId) && x.Active).ToList();
+            var permissions = _GestionDocumentalDbContext.Permission.Where(x => permissionIds.Contains(x.PermissionId) && x.Active).ToList();
 
             // Se obtienen información adicional sobre el rol y el tema del usuario
-            var role = _baseApiDbContext.Role.Where(x => x.RoleId == employee.RoleId).FirstOrDefault();
-            var theme = _baseApiDbContext.Theme.Where(x => x.ThemeId == employee.ThemeId).FirstOrDefault();
+            var role = _GestionDocumentalDbContext.Role.Where(x => x.RoleId == employee.RoleId).FirstOrDefault();
+            var theme = _GestionDocumentalDbContext.Theme.Where(x => x.ThemeId == employee.ThemeId).FirstOrDefault();
 
             // Se realizan validaciones adicionales relacionadas con el rol
             if (role == null) throw new Exception("No se le ha asignado un rol");

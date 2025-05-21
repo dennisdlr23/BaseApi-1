@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
-namespace BaseApi.WebApi.Features.Users.Dto
+namespace GestionDocumental.WebApi.Features.Users.Dto
 {
     public class TreeNodeDto
     {

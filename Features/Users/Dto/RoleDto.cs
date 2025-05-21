@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using BaseApi.WebApi.Features.Users.Entities;
+using GestionDocumental.WebApi.Features.Users.Entities;
 
-namespace BaseApi.WebApi.Features.Users.Dto
+namespace GestionDocumental.WebApi.Features.Users.Dto
 {
     public class RoleDto :Role
     {

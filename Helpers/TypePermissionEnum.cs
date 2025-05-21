@@ -1,5 +1,5 @@
 ﻿using System;
-namespace BaseApi.WebApi.Helpers
+namespace GestionDocumental.WebApi.Helpers
 {
     public enum TypePermissionEnum : int
     {
