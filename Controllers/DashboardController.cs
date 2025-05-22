@@ -28,5 +28,18 @@ namespace BaseApi.WebApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpGet("Documentos-Usuarios")]
+        public IActionResult GetDocumentosPorUsuario()
+        {
+            try
+            {
+                var result = _repository.GetDocumentosPorUsuario();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

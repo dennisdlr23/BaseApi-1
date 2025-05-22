@@ -3,11 +3,14 @@ using BaseApi.WebApi.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace BaseApi.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+   // [Authorize] // Requiere autenticación
     public class DocumentsController : ControllerBase
     {
         private readonly IDocumentsRepository _documentsRepository;
@@ -15,6 +18,28 @@ namespace BaseApi.WebApi.Controllers
         public DocumentsController(IDocumentsRepository documentsRepository)
         {
             _documentsRepository = documentsRepository;
+        }
+
+        // GET api/documents?userId={userId}
+        [HttpGet]
+        public async Task<IActionResult> ObtenerDocumentos([FromQuery] int userId)
+        {
+            // Obtener el UserName del token JWT (claim email)
+            var userName = User.FindFirst(ClaimTypes.Email)?.Value;
+            if (string.IsNullOrEmpty(userName))
+            {
+                return Unauthorized("No se pudo obtener el nombre de usuario.");
+            }
+
+            // Validar que el userId sea válido
+            if (userId <= 0)
+            {
+                return BadRequest("El userId es requerido.");
+            }
+
+            // Obtener documentos pasando userId y userName
+            var documentos = await _documentsRepository.ObtenerPorUsuario(userId, userName);
+            return Ok(documentos);
         }
 
         // POST api/documents
@@ -59,23 +84,19 @@ namespace BaseApi.WebApi.Controllers
             return NotFound("Documento no encontrado.");
         }
 
-   
-
-
-        // GET api/documents/categoria/{categoria}
-        [HttpGet]
-        public async Task<IActionResult> ObtenerTodos()
-        {
-            var documentos = await _documentsRepository.ObtenerTodos();
-            return Ok(documentos);
-        }
-
-
         // GET api/documents/tipo/{tipoContenido}
         [HttpGet("tipo/{tipoContenido}")]
         public async Task<IActionResult> ObtenerPorTipoContenido(string tipoContenido)
         {
             var documentos = await _documentsRepository.ObtenerPorTipoContenido(tipoContenido);
+            return Ok(documentos);
+        }
+
+        // GET api/documents/categoria/{categoria}]
+        [HttpGet("categoria/{categoria}")]
+        public async Task<IActionResult> ObtenerPorCategoria(string categoria)
+        {
+            var documentos = await _documentsRepository.ObtenerPorCategoria(categoria);
             return Ok(documentos);
         }
     }

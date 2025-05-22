@@ -30,7 +30,22 @@ namespace BaseApi.WebApi.Repositories
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al obtener frecuencia de fallas por máquina.");
+                _logger.LogError(ex, "Error al obtener los datos.");
+                throw;
+            }
+        }
+        public List<DocumentosPorUsuario> GetDocumentosPorUsuario()
+        {
+            try
+            {
+                var result = _context.DocumentosPorUsuarios
+                    .FromSqlRaw("SELECT * FROM [dbo].[vw_DocumentosPorUsuario] ORDER BY CantidadDocumentos DESC")
+                    .ToList();
+                return result;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error al obtener los datos.");
                 throw;
             }
         }

@@ -4,6 +4,7 @@ using BaseApi.WebApi.Models;
 
 namespace BaseApi.WebApi.Repositories
 {
+
     public interface IDocumentsRepository
     {
         Task<int> InsertarDocumento(Documents doc);
@@ -12,5 +13,6 @@ namespace BaseApi.WebApi.Repositories
         Task<IEnumerable<Documents>> ObtenerTodos();
         Task<IEnumerable<Documents>> ObtenerPorCategoria(string categoria);
         Task<IEnumerable<Documents>> ObtenerPorTipoContenido(string tipoContenido);
+        Task<IEnumerable<Documents>> ObtenerPorUsuario(int userId, string userName); // Actualizar interfaz
     }
 }

@@ -27,6 +27,7 @@ namespace BaseApi.WebApi.Repositories
             parametros.Add("@Etiquetas", doc.Etiquetas);
             parametros.Add("@TipoContenido", doc.TipoContenido);
             parametros.Add("@TamanoKB", doc.TamanoKB);
+            parametros.Add("@UserId", doc.UserId);
 
             return await _db.ExecuteAsync("sp_InsertarDocumento", parametros, commandType: CommandType.StoredProcedure);
         }
@@ -72,5 +73,14 @@ namespace BaseApi.WebApi.Repositories
             var parametros = new { TipoContenido = tipoContenido };
             return await _db.QueryAsync<Documents>("sp_ObtenerDocumentosPorTipoContenido", parametros, commandType: CommandType.StoredProcedure);
         }
+
+        public async Task<IEnumerable<Documents>> ObtenerPorUsuario(int userId, string userName)
+        {
+            var parametros = new DynamicParameters();
+            parametros.Add("@UserId", userId);
+            parametros.Add("@UserName", userName);
+            return await _db.QueryAsync<Documents>("sp_ObtenerDocumentosPorUsuario", parametros, commandType: CommandType.StoredProcedure);
+        }
     }
+
 }

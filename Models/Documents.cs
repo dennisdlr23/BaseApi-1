@@ -13,5 +13,6 @@ namespace BaseApi.WebApi.Models
         public string Etiquetas { get; set; }
         public string TipoContenido { get; set; }
         public int TamanoKB { get; set; }
+        public int UserId {  get; set; }
     }
 }

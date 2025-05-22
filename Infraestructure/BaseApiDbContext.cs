@@ -19,8 +19,8 @@ namespace GestionDocumental.WebApi.Infraestructure
         public DbSet<TypePermission> TypePermission { get; set; }
         public DbSet<Documents> Documents { get; set; }
         public DbSet<DocumentosPorTipoContenid> DocumentosPorTipoContenid {  get; set; }
-
-
+        public DbSet<DocumentosPorUsuario> DocumentosPorUsuarios { get; set; }
+        public DbSet<Categorias> Categorias { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             new User.Map(modelBuilder.Entity<User>());
@@ -29,7 +29,8 @@ namespace GestionDocumental.WebApi.Infraestructure
             new Role.Map(modelBuilder.Entity<Role>());
             new Theme.Map(modelBuilder.Entity<Theme>());
             new TypePermission.Map(modelBuilder.Entity<TypePermission>());
-            new DocumentosPorTipoContenid.Map(modelBuilder.Entity<DocumentosPorTipoContenid>()); 
+            new DocumentosPorTipoContenid.Map(modelBuilder.Entity<DocumentosPorTipoContenid>());
+            new DocumentosPorUsuario.Map(modelBuilder.Entity<DocumentosPorUsuario>());
 
             base.OnModelCreating(modelBuilder);
         }

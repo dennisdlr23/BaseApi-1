@@ -54,7 +54,7 @@ namespace GestionDocumental.WebApi
             services.AddTransient<PermissionService, PermissionService>();
             services.AddScoped<IDocumentsRepository, DocumentsRepository>();
             services.AddScoped<DashboardRepository, DashboardRepository>();
-
+            services.AddScoped<ICategoriasRepository, CategoriasRepository>();
 
             // Configuración de autenticación mediante token
             services.AddTokenAuthentication(Configuration);
